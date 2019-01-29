@@ -75,3 +75,9 @@ class QuestionDetailView(TestCase):
         url = reverse("polls:detail", args = (past_question.id,))
         response = self.client.get(url)
         self.assertContains(response, past_question.question_text)
+
+class LandingSignup(TestCase):
+    def test_load_of_landing_page(self):
+        url = reverse("polls:landing")
+        response = self.client.get(url)
+        self.assertEqual(response.status_code, 200)
