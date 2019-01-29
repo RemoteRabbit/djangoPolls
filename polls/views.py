@@ -5,9 +5,6 @@ from django.views import generic
 from .models import Choice, Question
 from django.utils import timezone
 
-def landingPage(request):
-    return render(request, "polls/landing.html")
-
 class IndexView(generic.ListView):
     template_name = 'polls/index.html'
     context_object_name = 'latest_question_list'
