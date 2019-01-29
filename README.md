@@ -1,5 +1,5 @@
 # djangoPolls
-[![Build Status](https://travis-ci.org/trjahnke/djangoPolls.svg?branch=master)](https://travis-ci.org/trjahnke/djangoPolls)\
+[![Build Status](https://travis-ci.org/trjahnke/djangoPolls.svg?branch=master)](https://travis-ci.org/trjahnke/djangoPolls) [![codecov](https://codecov.io/gh/trjahnke/djangoPolls/branch/master/graph/badge.svg)](https://codecov.io/gh/trjahnke/djangoPolls)\
 Django Project polls web application
 
 # How to use
