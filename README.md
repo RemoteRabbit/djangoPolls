@@ -29,10 +29,14 @@ python manange.py runserver
     * Make one
     * Set it up to override django sign on and sign up 
 - Setup user login and creation 
-    * at some point set this up to do third party login
-- fancy up the admin console
-- page redesigns
-- add additional testing for better coverage
+    * At some point set this up to do third party login
+- Fancy up the admin console
+- Page redesigns
+- Add additional testing for better coverage
+- Setup the setup_client.py file (backburner)
+- Set up third party oauth
+- Setup cloud db for project
+- Setup heroku deploys
 
 
 
